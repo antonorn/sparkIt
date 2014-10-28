@@ -1,4 +1,8 @@
 nguage: java
 jdk:
  - openjdk7
- - oraclejdk7
+ - oraclejdk
+
+script:
+ - ./gradlew check
+ - ./gradlew seleniumXvfb7
